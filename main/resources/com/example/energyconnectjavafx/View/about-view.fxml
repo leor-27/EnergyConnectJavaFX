@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.web.WebView?>
+
+<ScrollPane layoutX="-2.0" layoutY="-2.0" prefHeight="1946.0" prefWidth="1131.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1"  fx:controller="com.example.energyconnectjavafx.Controller.AboutController">
+ <content>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1944.0" prefWidth="1128.0">
+   <children>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+      <AnchorPane layoutX="23.0" layoutY="243.0" prefHeight="366.0" prefWidth="1081.0" style="-fx-background-color: #F0F2F3;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Text layoutX="49.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Energy FM" wrappingWidth="264.2700500488281">
+               <font>
+                  <Font name="System Bold" size="50.0" />
+               </font>
+            </Text>
+            <Text layoutX="49.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get to know about " wrappingWidth="475.4700927734375">
+               <font>
+                  <Font name="System Bold" size="50.0" />
+               </font>
+            </Text>
+            <Text layoutX="49.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Energy FM is a radio station owned and operated by Ultrasonic Broadcasting System. It has several branches across the Philippines, including DWBQ, which is located on the 3rd Floor of Traders Square Bldg., P. Burgos St., Naga City, Camarines Sur, and broadcasts as 106.3 Energy FM. " wrappingWidth="500.8807067871094">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <WebView fx:id="mapView" layoutX="588.0" layoutY="19.0" prefHeight="327.0" prefWidth="474.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-1.0" layoutY="1556.0" prefHeight="389.0" prefWidth="1130.0" style="-fx-background-color: #1C5186;">
+         <children>
+            <Text fill="WHITE" layoutX="35.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Connect With Us" wrappingWidth="418.72364044189453">
+               <font>
+                  <Font name="System Bold" size="50.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="106.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Energy FM Naga" wrappingWidth="158.29818725585938">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="106.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DJ Makisig" wrappingWidth="98.29814147949219">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="106.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DJ Makisig" wrappingWidth="98.29814147949219">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="106.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DJ Makisig" wrappingWidth="98.29814147949219">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="25.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Privacy Policy | Energy FM © 2010" wrappingWidth="274.2027053833007">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="748.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="energyfmnaga1063@gmail.com" wrappingWidth="286.2981872558594">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="747.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+63 917 113 7249" wrappingWidth="167.89822387695312">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="749.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3F Traders' Square Building, P. Burgos Street, Brgy. Sta. Cruz Naga City, Naga City, Philippines" wrappingWidth="300.1647644042969">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="22.0" fitWidth="24.0" layoutX="66.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/facebook.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="22.0" fitWidth="24.0" layoutX="67.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/facebook.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="22.0" fitWidth="24.0" layoutX="68.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/tiktok.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="22.0" fitWidth="24.0" layoutX="67.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/youtube.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="22.0" fitWidth="24.0" layoutX="707.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/email.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="22.0" fitWidth="24.0" layoutX="708.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/phone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="22.0" fitWidth="24.0" layoutX="709.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/location.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane layoutX="-2.0" layoutY="-13.94921875">
+         <children>
+            <AnchorPane layoutY="12.94921875" prefHeight="107.0" prefWidth="1130.0" style="-fx-background-color: #1C5186;">
+               <children>
+                  <AnchorPane layoutX="13.0" layoutY="24.0" prefWidth="86.0" />
+                  <ImageView fx:id="logoHomepage" fitHeight="111.0" fitWidth="169.0" layoutX="25.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#goToHomepage" style="-fx-cursor: hand;">
+                     <image>
+                        <Image url="@../Images/logo.png" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="aboutLink" fill="WHITE" layoutX="887.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About" wrappingWidth="133.1416586353148">
+                     <font>
+                        <Font name="System Bold" size="42.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="32.0" fitWidth="33.0" layoutX="1039.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/menu.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Text layoutX="722.0" layoutY="747.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Crowd Favorite" wrappingWidth="426.403564453125">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Text>
+      <Text layoutX="915.0" layoutY="812.0" strokeType="OUTSIDE" strokeWidth="0.0" text="in Naga" wrappingWidth="187.47021484375">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Text>
+      <Text layoutX="521.0" layoutY="864.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The station is well-known in the city for its popular catchphrases, such as “Pangga, may Energy ka pa ba?” and “Basta Energy, Number 1 pirmi!”. It has also been recognized several times as the Number 1 radio station in Naga." textAlignment="RIGHT" wrappingWidth="558.298095703125">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="73.0" layoutY="1100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Always On." wrappingWidth="274.9369201660156">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Text>
+      <Text layoutX="71.0" layoutY="1162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Always Energy." wrappingWidth="365.6036071777344">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Text>
+      <Text layoutX="73.0" layoutY="1209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="As a typical radio station, Energy FM 106.3 Naga broadcasts audio content to listeners 24/7 through radio waves, featuring music, advertisements, comedic skits, interviews with public figures and listeners, talk shows, sports updates, public service announcements, political discussions, and the latest news—not just from the city, but also nationally and globally." wrappingWidth="505.9115905761719">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="33.0" layoutY="662.0" prefHeight="311.0" prefWidth="437.0" style="-fx-background-color: #F0F2F3;">
+               <effect>
+                  <DropShadow />
+               </effect>
+         <children>
+            <ImageView fitHeight="287.0" fitWidth="447.0" layoutX="14.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/djs_numberonephoto%20copy.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="666.0" layoutY="1058.0" prefHeight="311.0" prefWidth="437.0" style="-fx-background-color: #F0F2F3;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <AnchorPane layoutX="11.0" layoutY="10.0" prefHeight="292.0" prefWidth="416.0" style="-fx-background-color: gray;">
+               <children>
+                  <ImageView fitHeight="262.0" fitWidth="437.0" layoutX="3.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/djs_profiles.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
+</content>
+</ScrollPane>
